@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body{
+  font-family: 'Lato', sans-serif;
+  background:url('https://creativesociety.com/themes/tv/assets/images/topCollage/collage-768-200-1-min.jpg') no-repeat;
+    background-size:auto;
+    background-position:center top;
+  
+  
+}
+.container{
+  width:100%;
+  /*border:1px solid yellow;*/
+  margin:0px auto;
+  }
+.info{
+  text-align:center;
+  margin-top:50px;
+  width:350px;
+  padding:40px 20px;
+  background:white;
+  border-radius:5px;
+  box-shadow:1px 2px 3px rgba(0,0,0,.2)
+  }
+.info__logo img{
+  width:120px;
+  }
+.info__text{
+  margin:20px 0px;
+  font-size:18px;
+  font-weight:500;
+  line-height:24px;
+  }
+.info__btn{
+  padding:10px 20px;
+  color:white;
+  border-radius:4px;
+  background:red;
+  display:inline-block;
+  text-transform:uppercase;
+}
+.idea{
+  margin:80px auto;
+  text-align:center;
+  }
+.idea__title{
+  background:url("https://creativesociety.com/themes/tv/assets/images/icons/project-idea.svg") no-repeat;
+  height:60px;
+  display:inline-block;
+  /*border:1px solid yellow;*/
+  font-size:28px;
+  font-weight:600;
+  padding-left:60px;
+  width:300px;
+  line-height:60px;
+  }
+.idea__subtitle{
+  margin:20px auto;
+  width:300px;
+  font-size:18px;
+  font-weight:600;
+  }
+.idea__point{
+  background:url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Ski_trail_rating_symbol_red_circle.png') no-repeat;
+  background-size:20px;
+  background-position:0px 5px;
+  text-align:left;
+  font-size:18px;
+  line-height:24px;
+  margin:0px auto 40px auto;
+  padding:5px 10px 0 30px;
+  width:300px;
+  }
